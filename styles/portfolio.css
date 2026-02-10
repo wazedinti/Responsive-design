@@ -296,6 +296,20 @@ footer .footer-container {
 .container {
     width: 95%; 
 }
+.btn-group{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;   /* এক লাইনে রাখবে */
+  }
+
+  .btn-group .btn{
+    flex: 1;             /* দুইটা সমান জায়গা নেবে */
+    padding: 12px 8px;   /* ছোট করলাম */
+    font-size: 14px;     /* ছোট font */
+    white-space: nowrap; /* লেখা ভাঙবে না */
+  }
+
 
 .section-heading h2 {
     font-size: 30px;
